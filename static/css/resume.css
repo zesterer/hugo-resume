@@ -64,6 +64,12 @@ h2 {
   text-transform: uppercase;
 }
 
+#sideNav .navbar-nav .nav-item-external .nav-link {
+  font-weight: 600;
+  color: #FFFFFFE0;
+  text-transform: uppercase;
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -79,11 +85,13 @@ h2 {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
+	outline: none;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+	outline: none;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -100,6 +108,14 @@ h2 {
     display: block;
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+	outline: none;
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item-external {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item-external .nav-link {
+	outline: none;
     display: block;
   }
 }
