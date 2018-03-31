@@ -41,6 +41,7 @@ h2 {
 
 .form-contact {
 	width: 500px;
+	max-width: 100%;
 	font-family: 'Saira Extra Condensed', serif;
 	font-weight: 500;
 }
@@ -76,8 +77,15 @@ h2 {
   color: #FFFFFF70;
 }
 
+.list-lower {
+	bottom: 0;
+	position: absolute;
+	display: inline;
+}
+
 .list-social-icons a .fa-lg {
   font-size: 1.5rem;
+  bottom: 0.5rem;
 }
 
 .list-icons {
