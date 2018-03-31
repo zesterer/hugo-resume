@@ -43,6 +43,11 @@
             <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
           </li>
       {{ end }}
+	  {{ if .Site.Params.showContact }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#contact">Contact</a>
+          </li>
+      {{ end }}
 	  {{ if .Site.Params.showBlog }}
 		  <hr class="nav-hr">
           <li class="nav-item-external">

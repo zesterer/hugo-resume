@@ -27,4 +27,7 @@
    {{ if .Site.Params.showEducation }}
        {{ partial "portfolio/education.html" . }}
    {{ end }}
+   {{ if .Site.Params.showContact }}
+       {{ partial "portfolio/contact.html" . }}
+   {{ end }}
 {{ end }}
