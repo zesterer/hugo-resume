@@ -22,12 +22,12 @@
   <link href="{{ "css/tweaks.css" | absURL }}" rel="stylesheet">
   {{ .Hugo.Generator }}
   {{ block "headfiles" . }}
-   <!-- pl;aceholder -->
+   <!-- placeholder -->
   {{ end }}
 </head>
 <body id="page-top">
   {{ partial "nav.html" . }}
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-0" style="background-image: url('{{ .Site.Params.backgroundImage }}'); background-attachment: fixed;">
     {{ block "main" . }}
       {{ .Content }}
     {{ end }}
