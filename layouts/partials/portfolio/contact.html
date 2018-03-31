@@ -14,6 +14,7 @@
               </div>
               {{ end }}
 
+			  {{ if .Site.Params.showContactForm }}
 			  <h3 class="mb-0">Contact Me Now</h3>
 			  <div class="subheading mb-3">Alternatively, you can contact me here</div>
 			  <form class="form-contact" name="Contact Me" method="POST" netlify>
@@ -22,5 +23,6 @@
 				  <p><textarea class="form-entry" placeholder="Type your message here..." type="message" name="name"></textarea></p>
 				  <p><button type="submit">Submit</button></p>
 			  </form>
+			  {{ end }}
            </div>
         </section>
