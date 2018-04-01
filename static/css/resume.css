@@ -110,6 +110,7 @@ h2 {
 #sideNav .navbar-nav .nav-hr {
 	width: 5em;
 	border-top: 2px solid rgba(255, 255, 255, 0.3);
+	margin: 0;
 }
 
 @media (min-width: 992px) {
@@ -124,6 +125,11 @@ h2 {
     height: 100vh;
 	box-shadow: 0px 0px 12px #00000080;
   }
+
+  #sideNav .navbar-nav .nav-hr {
+	margin: auto;
+  }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
